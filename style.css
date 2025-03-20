@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.logo-mario {
+    height: 200px;
+    margin-bottom: 20px;
+}
+button{
+    color: #ffffff;
+    background-color: #c51111;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+button:hover{
+    color: #c51111;
+    background-color: #ffffff;
+    transition: 0.5s ease-in-out;
+}
+
+.mario-luigi {
+    height: 500px;
+}
+
+body{
+    height: 100vh;
+}
+
+.caixa-princ{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+}
+
+.caixa-infor {
+    width: 50%;
+}
+
+p {
+    color: #ffffff;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0; 
+}
+
+.whatsapp img{
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+.mascara{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+
+}
+
+.header img{ 
+    height: 60px;
+}
+
+.header a {
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #c51111;
+    font-size: 26px;
+    transition: 0.5s ease-in-out;
+}
+.form-fale-conosco {
+    background-color: #ffffff;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    position: fixed;
+    padding: 20px;
+    border-radius: 5px;
+    left: -370px;
+    top: 30%;
+    z-index: 1;
+    transition: left 1s ease-in-out;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 5px;
+    outline-color: #18d80f;
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: rgb(138, 136, 136);
+    padding-left: 5px;
+    outline-color: #18d80f;
+}
+
+.mascara-form{
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: left 1s ease-in-out;
+}
+
+
+.nossosservicos {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .service {
+    background: white;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .service h2 {
+    color: #1d3557;
+  }
+
+  .service p {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: black;
+  }
+
+  .service .highlight {
+    color: #e63946;
+    font-weight: bold;
+  }
+
+
+
+
+/* midia query = para deixar o site tanto COMP quanto CEL */
+
+@media(max-width: 1100px) {
+    p {
+        display: none;
+    }
+
+    .caixa-princ {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 10px;
+    }
+
+    .caixa-infor {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .mario-luigi{
+        width: 80vw;
+        height: auto;
+    }
+    .header{
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    .header img {
+        display: none;
+    }
+    .header a {
+        font-size: 18px;
+        text-align: center;
+    }
+    .service h2 {
+        font-size: 17px;
+    }
+    .service p {
+        display: block;
+        margin: 10px 0;
+        line-height: 1.6;
+        color: black;
+    }
+
+}

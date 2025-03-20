@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Serviços</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <div class="header">
+        <img src="img/logo-header.png">
+        <a href="index.html">Home</a>
+        <a href="nossos-serviços.html">Nossos Serviços</a>
+        <a onclick="BotaoEntreEmContato()">Fale Conosco</a>
+    </div>
+
+    </div>
+    <div class="video">
+        <video src="img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <a href="https://wa.link/4qi3e5" class="whatsapp">
+        <img src="img/whatsapp.png">
+    </a>
+
+    <form 
+        action="https://formcarry.com/s/D31ZLwCMful" 
+        method="POST" 
+        enctype="multipart/form-data"
+        class="form-fale-conosco">
+
+            <input placeholder="Seu Nome" type="text" name="Nome">
+            <input placeholder="Seu Telefone" type="tel" name="Telefone">
+            <textarea placeholder="Digite o seu problema..." name="Duvida"></textarea>
+            <button>Pedir Orçamento</button>
+    </form>
+
+    <div class="mascara-form" onclick="EsconderForm()"></div>
+
+    <div class="nossosservicos">
+        <!-- Emergências Hidráulicas -->
+        <div class="service">
+          <h2>🚨 Emergências Hidráulicas</h2>
+          <p>Vazamentos inesperados ou torneiras que não param de pingar? <span class="highlight">Atendimento 24 horas</span> para emergências!</p>
+        </div>
+    
+        <!-- Desentupimentos -->
+        <div class="service">
+          <h2>🪠 Desentupimentos Superpoderosos</h2>
+          <p>De canos entupidos a esgotos complicados, resolvemos tudo com eficiência e limpeza. <span class="highlight">Sem sujeira, sem estresse!</span></p>
+        </div>
+    
+        <!-- Instalações e Manutenção -->
+        <div class="service">
+          <h2>🔧 Instalações e Manutenção</h2>
+          <p>Precisa de uma nova pia ou um sistema de encanamento? Nós garantimos um serviço impecável e rápido.</p>
+        </div>
+    
+        <!-- Soluções Personalizadas -->
+        <div class="service">
+          <h2>⭐ Soluções Personalizadas</h2>
+          <p>Problema hidráulico especial? Oferecemos soluções criativas e personalizadas para qualquer desafio.</p>
+        </div>
+    
+        <!-- Manutenção Preventiva -->
+        <div class="service">
+          <h2>⏱️ Revisão e Manutenção Preventiva</h2>
+          <p>Evite surpresas desagradáveis! Faça revisões regulares com a gente. <span class="highlight">Planos mensais e anuais disponíveis!</span></p>
+        </div>
+      </div>
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
