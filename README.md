@@ -6,8 +6,8 @@
     inspirado no universo de <em>Super Mario Bros</em>.</p>
 <br>
 <br>
-<h2>🌍 Acesse o Projeto Online</h2>
-    <p>🔗 <a href="https://mayanesouza.github.io/Servicos-Encanadores-Mario-e-Luigi/" target="_blank">
+ <h2>🌍 Acesse o Projeto Online</h2>
+    <p>🔗 <a href="https://mayanesouza.github.io/Servicos-Encanadores-Mario-e-Luigi/" target="_blank" rel="noopener noreferrer">
     Clique aqui para acessar o site</a></p>
 <br>
 <br>
