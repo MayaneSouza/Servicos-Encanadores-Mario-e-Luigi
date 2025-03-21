@@ -8,7 +8,7 @@
 <br>
  <h2>🌍 Acesse o Projeto Online</h2>
     <p>🔗 <a href="https://mayanesouza.github.io/Servicos-Encanadores-Mario-e-Luigi/" target="_blank" rel="noopener noreferrer">
-    Clique aqui para acessar o site</a></p>
+    Clique aqui para acessar o site</a> - (CTRL + Clique para abrir em nova aba)</p>
 <br>
 <br>
  <h2>🎬 Destaque do Projeto</h2>
