@@ -24,9 +24,9 @@
     
  <h3>📱 Versão Mobile</h3>
      <div style="display: flex; gap: 10px;">
-        <img src="https://github.com/MayaneSouza/Servicos-Encanadores-Mario-e-Luigi/blob/master/img/MarioLuigiCel1.png?raw=true" alt="Página Inicial - Mobile" height="600">
-        <img src="https://github.com/MayaneSouza/Servicos-Encanadores-Mario-e-Luigi/blob/master/img/MarioLuigiCel2.png?raw=true" alt="Seção de Serviços - Mobile" height="600">
-        <img src="https://github.com/MayaneSouza/Servicos-Encanadores-Mario-e-Luigi/blob/master/img/FaleConoscoCel.png?raw=true" alt="Fale Conosco - Mobile" height="600">
+        <img src="https://github.com/MayaneSouza/Servicos-Encanadores-Mario-e-Luigi/blob/master/img/MarioLuigiCel1.png?raw=true" alt="Página Inicial - Mobile" height="450">
+        <img src="https://github.com/MayaneSouza/Servicos-Encanadores-Mario-e-Luigi/blob/master/img/MarioLuigiCel2.png?raw=true" alt="Seção de Serviços - Mobile" height="450">
+        <img src="https://github.com/MayaneSouza/Servicos-Encanadores-Mario-e-Luigi/blob/master/img/FaleConoscoCel.png?raw=true" alt="Fale Conosco - Mobile" height="450">
     </div>
 <br>
 <br>
